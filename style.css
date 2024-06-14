@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:  ;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000066
+}
+
+.main-header{
+  font-size: 20px;
+  color:  #ff1a1a;
+  text-align: center;
+  margin: 10px;
+  postiion: block;
+}
+
+.intro-paragraph{
+  font-size: 20px;
+  color: #00cc44;
+  margin: 10px;
+  position: block;
+}
+
+.cta-button{
+  display: block;
+  padding: 10px;
+  font-size: 20em;
+  color: #fffffff;
+}
+
+.main-header::before, main-header::after{
+  content: '';
+  margin: 10px;
+  padding: 20px;
+}
+
+.main-header::before{
+  content: '*****';
+  font-size: 20px;
+  color: yellow;
+}
+
+.main-header::after{
+  content: '*****';
+  font-size: 20px;
+  color: yellow;
+}
+
+.intro-paragraph::before, intro-paragraph::after{
+  content: '';
+  padding: 20px;
+}
+
+.intro-paragraph::before{
+  content: '"';
+  font-size: 20px;
+  color: yellow;
+}
+
+.intro-paragraph::after{
+  content: '"';
+  font-size: 20px;
+  color: yellow;
+}
+
+.cta-button::before, cta-button::after{
+  content: '';
+  padding: 20px;
+}
+
+.cta-button::before{
+  content: "👉 ";
+  font-size: 20px;
+  color: yellow;
+}
+
+.cta-button::after{
+  content: " 👈";
+  font-size: 20px;
+  color: yellow;
+}
